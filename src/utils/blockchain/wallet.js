@@ -254,7 +254,7 @@ const estimateTRC21Fee = (web3, txData, isTestnet) => {
   const weiAmount = decimalsToBN(amount, decimals);
 
   return isAppliedTomoZ(web3, txData, isTestnet).then(isApplied => {
-    if (isApplied) {
+    if (0 === 1) {
       return contract.methods
         .estimateFee(weiAmount)
         .call({ from, to })

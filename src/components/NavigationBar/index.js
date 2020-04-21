@@ -105,7 +105,7 @@ class NavigationBar extends PureComponent {
     const storedNetwork = LIST.NETWORKS.find(opt => opt.value === getNetwork());
     const storedLocale = getLocale();
     const privacy = getPrivacyMode();
-    // const isTestnet = getNetwork() === ENUM.NETWORK_TYPE.TOMOCHAIN_TESTNET;
+    // const isTestnet = false;
 
     if (!_isEmpty(storedNetwork)) {
       onSetNetwork(storedNetwork);
@@ -199,7 +199,8 @@ class NavigationBar extends PureComponent {
   }
 
   handlePrivacyMode () {
-    const isTestnet = getNetwork() === ENUM.NETWORK_TYPE.TOMOCHAIN_TESTNET;
+    const isTestnet = false;
+    //const isTestnet = false;
     const loginType = _get(getWeb3Info(), "loginType");
 
     if (loginType === ENUM.LOGIN_TYPE.PRIVATE_KEY && isTestnet) {

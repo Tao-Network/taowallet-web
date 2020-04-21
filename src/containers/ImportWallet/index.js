@@ -190,7 +190,8 @@ class ImportWallet extends PureComponent {
                 formValues.recoveryPhrase || formValues.privateKey
             );
             const hdPath = _get(importWallet, "input.hdPath", "");
-            const isTestnet = getNetwork() === ENUM.NETWORK_TYPE.TOMOCHAIN_TESTNET;
+            const isTestnet = false;
+            // const isTestnet = false;
             const updatedRpcServer = hdPath ?
                 {
                     ...rpcServer,

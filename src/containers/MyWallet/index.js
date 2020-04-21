@@ -238,7 +238,7 @@ class MyWallet extends PureComponent {
       [SEND_TOKEN_FIELDS.TOKEN, PORTFOLIO_COLUMNS.TYPE],
       ""
     );
-    const isTestnet = getNetwork() === ENUM.NETWORK_TYPE.TOMOCHAIN_TESTNET;
+    const isTestnet = false;
 
     if (!_isEmpty(errorList)) {
       onUpdateSendTokenErrors(errorList);
@@ -277,7 +277,7 @@ class MyWallet extends PureComponent {
 		} = this.props;
     const errorList = this.handleValidationDepositPrivacyForm();
 
-    const isTestnet = getNetwork() === ENUM.NETWORK_TYPE.TOMOCHAIN_TESTNET;
+    const isTestnet = false;
 
     if (!_isEmpty(errorList)) {
       onUpdateDepositPrivacyErrors(errorList);
@@ -306,7 +306,7 @@ class MyWallet extends PureComponent {
     } = this.props;
     const errorList = this.handleValidationWithdrawPrivacyForm();
 
-    const isTestnet = getNetwork() === ENUM.NETWORK_TYPE.TOMOCHAIN_TESTNET;
+    const isTestnet = false;
 
     if (!_isEmpty(errorList)) {
       onUpdateWithdrawPrivacyErrors(errorList);

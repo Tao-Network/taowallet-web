@@ -115,7 +115,7 @@ const recoveryPhrase = _get(mnemonic, 'origin');
 if (_isEqual(recoveryPhrase, _get(mnemonic, 'compare', []).join(' '))) {
     toggleLoading(true);
     const newWeb3 = createWeb3(recoveryPhrase, rpcServer);
-    const isTestnet = getNetwork() === ENUM.NETWORK_TYPE.TOMOCHAIN_TESTNET;
+    const isTestnet = false;
     getWalletInfo(newWeb3)
         .then(walletInfo => {
             // get privacy address

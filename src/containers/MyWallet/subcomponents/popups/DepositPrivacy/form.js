@@ -48,10 +48,10 @@ const TokenOption = props => {
           <Image
             src={_get(data, [PORTFOLIO_COLUMNS.ICON], '')}
             // alt={_get(data, [PORTFOLIO_COLUMNS.TOKEN_NAME], '')}
-            alt='TOMO'
+            alt='TAO'
           />
           {/* <span>{`${_get(data, [PORTFOLIO_COLUMNS.TOKEN_NAME], '')} (${_get( */}
-            <span>{`TOMO (${_get(
+            <span>{`TAO (${_get(
             data,
             [PORTFOLIO_COLUMNS.PUBLISHER],
             '',
@@ -84,17 +84,17 @@ const TokenInputValue = (props) => {
           <Image
             src={_get(data, [PORTFOLIO_COLUMNS.ICON], '')}
             // alt={_get(data, [PORTFOLIO_COLUMNS.TOKEN_NAME], '')}
-            alt='TOMO'
+            alt='TAO'
           />
           {/* <span>{`${_get(data, [PORTFOLIO_COLUMNS.TOKEN_NAME], '')} (${_get( */}
-            <span>{`TOMO (${_get(
+            <span>{`TAO (${_get(
             data,
             [PORTFOLIO_COLUMNS.PUBLISHER],
             '',
           )})`}</span>
         </Col>
         <Col xs={6} className='text-right text-ellipsis'>
-        {`${convertLocaleNumber(normalBalance)} TOMO`}
+        {`${convertLocaleNumber(normalBalance)} TAO`}
           {/* {`${convertLocaleNumber(normalBalance)} ${_get(
             data,
             [PORTFOLIO_COLUMNS.SYMBOL],
@@ -248,7 +248,7 @@ class FormContent extends PureComponent {
             formValues,
             [SEND_TOKEN_FIELDS.TOKEN, PORTFOLIO_COLUMNS.TRANSACTION_FEE],
             0,
-          )} TOMO`}
+          )} TAO`}
         </Label> */}
       </Form>
     );

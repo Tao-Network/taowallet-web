@@ -80,8 +80,8 @@ class BalanceInfo extends PureComponent {
                         <TextTitle>
                             <Ellipsis title={formatMessage(MSG.MY_WALLET_SECTION_BALANCE_BALANCE)}>{formatMessage(MSG.MY_WALLET_SECTION_BALANCE_BALANCE)}</Ellipsis>
                         </TextTitle>
-                        <TextValue title={`${convertLocaleNumber(totalBalance)} TOMO`}>
-                            {convertLocaleNumber(totalBalance)} TOMO
+                        <TextValue title={`${convertLocaleNumber(totalBalance)} TAO`}>
+                            {convertLocaleNumber(totalBalance)} TAO
                         </TextValue>
                     </div>
                     <div>
@@ -101,14 +101,14 @@ class BalanceInfo extends PureComponent {
                         <TextTitle>
                             <Ellipsis title={formatMessage(MSG.MY_WALLET_SECTION_BALANCE_PRIVACY)}>{formatMessage(MSG.MY_WALLET_SECTION_BALANCE_PRIVACY)}</Ellipsis>
                         </TextTitle>
-                        <TextValue title={`${this.handleGetPrivacyBalance()} TOMO`}>{this.handleGetPrivacyBalance()} TOMO</TextValue>
+                        <TextValue title={`${this.handleGetPrivacyBalance()} TAO`}>{this.handleGetPrivacyBalance()} TAO</TextValue>
                     </BalancePrivacy>
                     <BalanceMain>
                         <TextTitle title={formatMessage(MSG.MY_WALLET_SECTION_BALANCE_MAIN)}>
                             <Ellipsis>{formatMessage(MSG.MY_WALLET_SECTION_BALANCE_MAIN)}</Ellipsis>
                         </TextTitle>
-                        <TextValue title={`${convertLocaleNumber(parseFloat(balance))} TOMO`}>
-                            {convertLocaleNumber(parseFloat(balance))} TOMO
+                        <TextValue title={`${convertLocaleNumber(parseFloat(balance))} TAO`}>
+                            {convertLocaleNumber(parseFloat(balance))} TAO
                         </TextValue>
                     </BalanceMain>
                 </Col>

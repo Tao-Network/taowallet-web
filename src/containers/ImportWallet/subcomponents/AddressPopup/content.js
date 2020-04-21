@@ -39,7 +39,7 @@ class AddressContent extends PureComponent {
             <Col xs={4} className='text-right'>
               {`${wallet.balance.toLocaleString(undefined, {
                 minimumFractionDigits: 3,
-              })} TOMO`}
+              })} TAO`}
             </Col>
           </Row>
         ))}

@@ -114,7 +114,7 @@ export function* loadCoin() {
     if (response.data) {
       yield put(loadCoinDataSuccess(response.data));
     } else {
-      yield put(loadCoinDataFailed("Cannot load TomoChain coin data."));
+      yield put(loadCoinDataFailed("Cannot load Tao coin data."));
     }
   } catch (error) {
     yield put(loadCoinDataFailed(error.message));

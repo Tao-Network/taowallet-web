@@ -34,7 +34,7 @@ class ConfirmationContent extends PureComponent {
       _get(formValues, [SEND_TOKEN_FIELDS.TRANSACTION_FEE, 'type']) ===
         ENUM.TOKEN_TYPE.CURRENCY
     ) {
-      return 'TOMO';
+      return 'TAO';
     }
     return _get(formValues, [
       SEND_TOKEN_FIELDS.TOKEN,

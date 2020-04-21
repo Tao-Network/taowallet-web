@@ -29,48 +29,48 @@ class Footer extends PureComponent {
     this.SOCIAL_NETWORKS = [
       {
         className: 'font-icon-facebook',
-        url: 'https://www.facebook.com/tomochainofficial',
+        url: 'https://www.facebook.com/taoblockchainofficial',
       },
       {
         className: 'font-icon-twitter',
-        url: 'https://twitter.com/TomoChainANN',
+        url: 'https://twitter.com/taoblockchain',
       },
       {
         className: 'font-icon-telegram',
-        url: 'https://t.me/tomochain',
+        url: 'https://t.me/TaoCryptocurrency',
       },
       {
         className: 'font-icon-github',
-        url: 'https://github.com/tomochain/',
+        url: 'https://github.com/taoblockchain/',
       },
       {
         className: 'font-icon-linkedin',
-        url: 'https://www.linkedin.com/company/tomochain',
+        url: 'https://www.linkedin.com/company/taoblockchain',
       },
       {
         className: 'font-icon-reddit',
-        url: 'https://www.reddit.com/r/Tomochain/',
+        url: 'https://www.reddit.com/r/Tao/',
       },
     ];
     this.WEBSITE_SUPPORTED_LINKS = [
       {
-        url: 'https://docs.tomochain.com/products/tomowallet/features/',
+        url: 'https://docs.tao.network/ecosystem/taowallet/features/',
         content: formatMessage(MSG.FOOTER_OPTION_HELP),
       },
       {
-        url: 'https://docs.tomochain.com/legal/terms-of-use',
+        url: 'https://docs.tao.network/ecosystem/taowallet/terms/',
         content: formatMessage(MSG.FOOTER_OPTION_TERMS_USE),
       },
       {
-        url: 'https://docs.tomochain.com/legal/privacy',
+        url: 'https://docs.tao.network/ecosystem/taowallet/terms/',
         content: formatMessage(MSG.FOOTER_OPTION_PRIVACY_POLICY),
       },
       {
-        url: 'https://tomochain.com',
+        url: 'https://tao.network',
         content: formatMessage(MSG.HEADER_NAVBAR_OPTION_ABOUT),
       },
       {
-        url: 'https://docs.tomochain.com/faq/products/tomochain-applications/tomowallet',
+        url: 'https://docs.tao.network/general/faq/',
         content: formatMessage(MSG.HEADER_NAVBAR_OPTION_FAQS),
       },
     ];

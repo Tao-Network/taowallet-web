@@ -241,7 +241,7 @@ class FormContent extends PureComponent {
             formValues,
             [WITHDRAW_PRIVACY_FIELDS.TOKEN, PORTFOLIO_COLUMNS.TRANSACTION_FEE],
             0,
-          )} TOMO`}
+          )} TAO`}
         </Label> */}
       </Form>
     );

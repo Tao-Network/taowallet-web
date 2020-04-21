@@ -295,7 +295,7 @@ class NavigationBar extends PureComponent {
             {/* Switch language - End */}
 
             <DropdownItemStyler>
-              <ExternalLink target="_blank" href="https://docs.tomochain.com/products/tomowallet/features/">
+              <ExternalLink target="_blank" href="https://docs.tao.network/products/taowallet/features/">
                 {formatMessage(MSG.HEADER_NAVBAR_OPTION_MY_WALLET_OPTION_HELP)}
               </ExternalLink>
             </DropdownItemStyler>
@@ -337,7 +337,7 @@ class NavigationBar extends PureComponent {
                 />
                 {/* <LogoBox>
                   <LogoTomo />
-                  <TomoText>TomoChain</TomoText>
+                  <TomoText>Tao</TomoText>
                 </LogoBox> */}
               </NavbarBrand>
               <Collapse navbar>

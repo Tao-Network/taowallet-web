@@ -1356,7 +1356,7 @@ class MyWallet extends PureComponent {
 
 // ===== PROP TYPES =====
 MyWallet.propTypes = {
-  /** TomoChain coin data */
+  /** Tao coin data */
   coinData: PropTypes.object,
   /** React Intl's instance object */
   intl: PropTypes.object,

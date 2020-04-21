@@ -4,10 +4,10 @@
  *
  */
 // Base URLs
-const WALLET_TESTNET = 'https://apiwallet.testnet.tomochain.com';
-const SCAN_TESTNET = 'https://scan.testnet.tomochain.com';
-const WALLET_MAINNET = 'https://wallet.tomochain.com';
-const SCAN_MAINNET = 'https://scan.tomochain.com';
+const WALLET_TESTNET = 'https://apiwallet.testnet.tao.network';
+const SCAN_TESTNET = 'https://scan.testnet.tao.network';
+const WALLET_MAINNET = 'https://wallet.tao.network';
+const SCAN_MAINNET = 'https://scan.tao.network';
 
 export default {
   TOMOCHAIN_TESTNET: {

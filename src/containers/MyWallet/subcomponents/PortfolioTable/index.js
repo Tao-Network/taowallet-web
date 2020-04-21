@@ -82,8 +82,8 @@ class PortfolioTable extends Component {
     const { coinData, wallet } = this.props;
     return [
       {
-        [PORTFOLIO_COLUMNS.TOKEN_NAME]: 'TomoChain',
-        [PORTFOLIO_COLUMNS.SYMBOL]: 'TOMO',
+        [PORTFOLIO_COLUMNS.TOKEN_NAME]: 'Tao',
+        [PORTFOLIO_COLUMNS.SYMBOL]: 'TAO',
         [PORTFOLIO_COLUMNS.ICON]: tomoIcon,
         [PORTFOLIO_COLUMNS.BALANCE]: _get(wallet, 'balance', 0),
         [PORTFOLIO_COLUMNS.DECIMALS]: 18,
@@ -155,7 +155,7 @@ class PortfolioTable extends Component {
 
 // ===== PROP TYPES =====
 PortfolioTable.propTypes = {
-  /** TomoChain coin data */
+  /** Tao coin data */
   coinData: PropTypes.object,
   /** Table data */
   data: PropTypes.arrayOf(PropTypes.object),

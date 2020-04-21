@@ -1,10 +1,10 @@
 const theme = {
     main: {
-        headingColor: '#202533',
+        headingColor: '#2A2A2A',
 
         color: '#4D515C',
-        background: '#F1F5FF',
-        navBackground: '#272D40',
+        background: '#999999',
+        navBackground: '#294054',
 
         notificationBackground: '#4B96CD',
         notificationColor: '#fff',
@@ -13,7 +13,7 @@ const theme = {
         boxValueColor: '#31384E',
         boxAddressValueColor: '#4B96CD',
         boxBackground: '#fff',
-        modalColor: '#202533',
+        modalColor: '#2A2A2A',
 
         highlightColor: '#4B96CD',
         highlightHoverColor: '#3074a7',
@@ -26,18 +26,18 @@ const theme = {
         highlightHoverColor4: '#5353ad',
 
         footerColor: '#A5A8AD',
-        footerHoverColor: '#202533',
+        footerHoverColor: '#2A2A2A',
         footerSocialBackground: '#fff',
-        footerSocialHoverColor: '#202533',
+        footerSocialHoverColor: '#2A2A2A',
 
         inputBackground: '#F0F5FF',
-        inputColor: '#202533',
+        inputColor: '#2A2A2A',
         inputSecondColor: '#C5CBD7',
         inputDividerBackground: 'rgba(28, 28, 28, .2)',
         inputFocusBorder: '#5692cd',
         inputInvalidBorder: '#BE445E',
 
-        normalButtonBg: '#F1F5FF',
+        normalButtonBg: '#F1F1F1',
         normalButtonColor: '#848D9A',
         primaryButtonBg: '#E4AE63',
         primaryButtonColor: '#fff',
@@ -46,7 +46,7 @@ const theme = {
         normalButtonBgHover: '#d5dcec',
         primaryButtonBgHover: '#C59148',
         secondButtonBgHover: '#4076AC',
-        normalButtonColorHover: '#202533',
+        normalButtonColorHover: '#2A2A2A',
         primaryButtonColorHover: '#fff',
 
         selectIndicatorColor: '#3A8ECC',
@@ -55,38 +55,38 @@ const theme = {
         selectDisabledBg: '#f3f3f3',
         selectIndicatorDisabledColor: '#858b90',
 
-        cardColor: '#202533',
+        cardColor: '#2A2A2A',
         cardBackground: '#fff',
 
-        mnemonicBackground: '#F1F5FF',
-        mnemonicBorder: '#F1F5FF',
+        mnemonicBackground: '#F1F1F1',
+        mnemonicBorder: '#F1F1F1',
         buttonLineBorder: '#C5CBD7',
-        buttonLineColor: '#202533',
-        buttonLineDisabled: '#F1F5FF',
+        buttonLineColor: '#2A2A2A',
+        buttonLineDisabled: '#F1F1F1',
 
-        importItemActiveBackground: '#F1F5FF',
-        importItemActiveBorder: '#F1F5FF',
+        importItemActiveBackground: '#F1F1F1',
+        importItemActiveBorder: '#F1F1F1',
         importItemActiveBorderTop: '#E4AE63',
-        importItemBorder: '#F1F5FF',
+        importItemBorder: '#F1F1F1',
 
         tabColor: '#A5A8AD',
-        tabActiveColor: '#202533',
-        tabBackground: '#202533',
+        tabActiveColor: '#2A2A2A',
+        tabBackground: '#2A2A2A',
 
         switchModeColor: '#F5F5F5',
         switchModeBackground: '#333B54',
         switchModeBackgroundHover: '#2e3752',
 
         menuHeaderColor: '#F5F5F5',
-        menuColor: '#202533',
+        menuColor: '#2A2A2A',
         menuSubColor: '#A5A8AD',
         menuIconColor: '#3A8ECC',
         menuBackground: '#FFFFFF',
 
         tableHeaderCellColor: '#A5A8AD',
-        tableBodyCellColor: '#202533',
+        tableBodyCellColor: '#2A2A2A',
         paginationColor: '#A5A8AD',
-        paginationActiveColor: '#202533',
+        paginationActiveColor: '#2A2A2A',
     },
     privacy: {
         headingColor: '#f5f5f5',
@@ -167,7 +167,7 @@ const theme = {
         switchModeBackgroundHover: '#333',
 
         menuHeaderColor: '#F5F5F5',
-        menuColor: '#202533',
+        menuColor: '#2A2A2A',
         menuSubColor: '#A5A8AD',
         menuIconColor: '#F5F5F5',
         menuBackground: '#FFFFFF',

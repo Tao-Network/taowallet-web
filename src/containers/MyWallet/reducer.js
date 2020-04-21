@@ -160,7 +160,7 @@ export default (state = initialState, action) => {
         .setIn(['coinData', 'data'], action.data)
         .update('tokenOptions', tokens =>
           tokens.map(tok => {
-            if (tok[PORTFOLIO_COLUMNS.TOKEN_NAME] === 'TOMO') {
+            if (tok[PORTFOLIO_COLUMNS.TOKEN_NAME] === 'TAO') {
               return {
                 ...tok,
                 [PORTFOLIO_COLUMNS.PRICE]: _get(
@@ -277,8 +277,8 @@ export default (state = initialState, action) => {
     case SCAN_PRIVACY_DATA_SUCCESS:
         return state
           .set('privacyData', [{
-            [PORTFOLIO_COLUMNS.TOKEN_NAME]: 'TomoChain',
-            [PORTFOLIO_COLUMNS.SYMBOL]: 'TOMO',
+            [PORTFOLIO_COLUMNS.TOKEN_NAME]: 'Tao',
+            [PORTFOLIO_COLUMNS.SYMBOL]: 'TAO',
             [PORTFOLIO_COLUMNS.ICON]: tomoIcon,
             [PORTFOLIO_COLUMNS.BALANCE]: action.data.balance || 0,
             [PORTFOLIO_COLUMNS.DECIMALS]: 9,
@@ -364,7 +364,7 @@ export default (state = initialState, action) => {
       case SCAN_PRIVACY_TRANSACTION_SUCCESS:
         return state.set('privacyTransactionTable', {
           data: _get(action, 'tableData.items', []).map(trans => ({
-            [TRANSACTION_COLUMNS.TOKEN_TYPE]: 'TOMO',
+            [TRANSACTION_COLUMNS.TOKEN_TYPE]: 'TAO',
             [TRANSACTION_COLUMNS.CREATE_TIME]: moment(
               _isNumber(trans.createdTime)
                 ? Number(`${trans.createdTime}000`)
@@ -389,7 +389,7 @@ export default (state = initialState, action) => {
             return state
             .update('tokenOptions', tokens =>
                 tokens.map(tok => {
-                if (tok[PORTFOLIO_COLUMNS.TOKEN_NAME] === 'TOMO') {
+                if (tok[PORTFOLIO_COLUMNS.TOKEN_NAME] === 'TAO') {
                     return {
                     ...tok,
                     [PORTFOLIO_COLUMNS.BALANCE]: _get(
@@ -406,8 +406,8 @@ export default (state = initialState, action) => {
       case 'UPDATE_PRIVACY_BALANCE':
           return state
             .set('privacyData', [{
-              [PORTFOLIO_COLUMNS.TOKEN_NAME]: 'TomoChain',
-              [PORTFOLIO_COLUMNS.SYMBOL]: 'TOMO',
+              [PORTFOLIO_COLUMNS.TOKEN_NAME]: 'Tao',
+              [PORTFOLIO_COLUMNS.SYMBOL]: 'TAO',
               [PORTFOLIO_COLUMNS.ICON]: tomoIcon,
               [PORTFOLIO_COLUMNS.BALANCE]: action.data.balance || 0,
               [PORTFOLIO_COLUMNS.DECIMALS]: 9,

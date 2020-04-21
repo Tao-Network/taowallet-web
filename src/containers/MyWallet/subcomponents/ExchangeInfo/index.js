@@ -2,7 +2,7 @@
  *
  * TomoWallet - My Wallet Page - Exchange Information Section
  *
- * This component shows latest exchange information of TomoChain cryptocurrency,
+ * This component shows latest exchange information of Tao cryptocurrency,
  * according to CoinMarketCap's data
  */
 // ===== IMPORTS =====

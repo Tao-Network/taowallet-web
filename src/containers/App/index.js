@@ -70,7 +70,7 @@ class App extends PureComponent {
         hdPath,
         recoveryPhrase
     } = getWeb3Info() || {};
-    const networkKey = const isTestnet = false;;
+    const networkKey = getNetwork() || ENUM.NETWORK_TYPE.TOMOCHAIN_MAINNET;
     const serverConfig = hdPath ?
         {
             ..._get(RPC_SERVER, [networkKey], {}),

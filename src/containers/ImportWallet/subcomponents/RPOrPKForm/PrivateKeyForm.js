@@ -57,7 +57,7 @@ class PrivateKeyForm extends PureComponent {
   // generate random private key for testing
   handleGeneratePK () {
     const { updateInput } = this.props;
-    const networkKey = getNetwork() || ENUM.NETWORK_TYPE.TOMOCHAIN_TESTNET;
+    const networkKey = getNetwork() || ENUM.NETWORK_TYPE.TOMOCHAIN_MAINNET;
     const serverConfig = _get(RPC_SERVER, [networkKey]);
 
     const newMnemonic = generateMnemonic();

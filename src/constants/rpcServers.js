@@ -9,8 +9,8 @@ export default {
   },
   TOMOCHAIN_TESTNET: {
     type: 'http',
-    host: 'https://rpc.tao.network',
-    ws: 'wss://ws.tao.network',
+    host: 'https://rpc.testnet.tao.network',
+    ws: 'wss://ws.testnet.tao.network',
     networkId: 558,
     hdPath: "m/44'/558'/0'/0/",
     privacyContract: ''

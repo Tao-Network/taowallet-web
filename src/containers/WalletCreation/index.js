@@ -118,6 +118,7 @@ if (_isEqual(recoveryPhrase, _get(mnemonic, 'compare', []).join(' '))) {
     const isTestnet = false;
     getWalletInfo(newWeb3)
         .then(walletInfo => {
+        /*
             // get privacy address
             const privacyObject = getPrivacyAddressInfo(
               walletInfo.address,
@@ -125,7 +126,6 @@ if (_isEqual(recoveryPhrase, _get(mnemonic, 'compare', []).join(' '))) {
               rpcServer,
               isTestnet
           );
-
           // listen privacy events
           privacyObject.privacyWallet.on("NEW_UTXO", (utxo) => {
             let isExisted = privacyObject.privacyWallet.utxos.find((element) => {
@@ -151,6 +151,7 @@ if (_isEqual(recoveryPhrase, _get(mnemonic, 'compare', []).join(' '))) {
                     },
                 },
             });
+        */
         })
         .then(() => {
             if (isElectron()) {

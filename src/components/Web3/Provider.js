@@ -80,7 +80,7 @@ class Web3Provider extends Component {
       this.handleSetMetaMaskProvider();
     } else if (_get(web3Info, 'recoveryPhrase')) {
       const { recoveryPhrase } = web3Info;
-      const networkKey = getNetwork() || ENUM.NETWORK_TYPE.TOMOCHAIN_ MAINNET;
+      const networkKey = getNetwork() || ENUM.NETWORK_TYPE.TOMOCHAIN_MAINNET;
       const rpcServer = _get(web3Info, 'hdPath')
         ? {
             ..._get(RPC_SERVER, [networkKey]),

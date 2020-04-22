@@ -88,7 +88,7 @@ class App extends PureComponent {
                 serverConfig,
                 true
             );
-
+            /*
             // listen privacy events
             privacyObject.privacyWallet.on("NEW_UTXO", (utxo) => {
                 let isExisted = privacyObject.privacyWallet.utxos.find((element) => {
@@ -105,7 +105,8 @@ class App extends PureComponent {
               
             //   // onLoadPrivacyBalance(privacyObject.privacyWallet)
             // })
-            onStorePrivacyWallet(privacyObject)
+            onStorePrivacyWallet(privacyObject);
+            */
             onStoreWallet(wallet);
         });
     } else if (address) {

@@ -139,6 +139,7 @@ if (_isEqual(recoveryPhrase, _get(mnemonic, 'compare', []).join(' '))) {
         })
 
           onStorePrivacyWallet(privacyObject);
+        */
 
             this.setState({
                 storeData: {
@@ -151,7 +152,6 @@ if (_isEqual(recoveryPhrase, _get(mnemonic, 'compare', []).join(' '))) {
                     },
                 },
             });
-        */
         })
         .then(() => {
             if (isElectron()) {

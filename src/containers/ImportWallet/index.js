@@ -225,7 +225,7 @@ class ImportWallet extends PureComponent {
                   })
                     
                   onStorePrivacyWallet(privacyObject)
-
+                  */
                     setWeb3Info({
                         loginType: ENUM.LOGIN_TYPE.PRIVATE_KEY,
                         recoveryPhrase: accessKey,
@@ -236,7 +236,7 @@ class ImportWallet extends PureComponent {
                             } :
                             {})
                     });
-                    */
+
                 })
                 .then(() => {
                     if (isElectron() && accessType !== "keystore") {

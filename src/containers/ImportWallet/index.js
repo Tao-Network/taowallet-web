@@ -204,7 +204,7 @@ class ImportWallet extends PureComponent {
             getWalletInfo(newWeb3)
                 .then(walletInfo => {
                     onStoreWallet(walletInfo);
-
+                    /*
                     // get privacy address
                     const privacyObject = getPrivacyAddressInfo(
                       walletInfo.address,
@@ -236,6 +236,7 @@ class ImportWallet extends PureComponent {
                             } :
                             {})
                     });
+                    */
                 })
                 .then(() => {
                     if (isElectron() && accessType !== "keystore") {

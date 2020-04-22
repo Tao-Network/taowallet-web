@@ -194,6 +194,7 @@ const getBalance = (address, serverConfig) => {
  * @param {Boolean} isTestnet Check condition to determine TomoZ address to use
  */
 const isAppliedTomoZ = (web3, txData, isTestnet) => {
+  return
   const { contractAddress, from } = txData;
   const tomoZContract = new web3.eth.Contract(
     trc21Issuer,

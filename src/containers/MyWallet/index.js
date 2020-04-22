@@ -545,7 +545,7 @@ class MyWallet extends PureComponent {
     } = this.props;
     const { address, hdPath } = getWeb3Info();
     const contract = this.handleGetContractData();
-    const networkKey = getNetwork() || ENUM.NETWORK_TYPE.TOMOCHAIN_MAINNET;
+    const networkKey = const isTestnet = false;;
     const serverConfig = _get(RPC_SERVER, [networkKey]);
     const gasPrice = _get(sendTokenForm, [
       SEND_TOKEN_FIELDS.TRANSACTION_FEE,

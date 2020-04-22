@@ -103,7 +103,9 @@ class Web3Provider extends Component {
   }
 
   handleInitiateDefaultWeb3() {
-    const networkKey = getNetwork();
+    // const networkKey = getNetwork();
+    const networkKey = ENUM.NETWORK_TYPE.TOMOCHAIN_MAINNET;
+
     if (networkKey) {
       this.handleUpdateRpcServer(networkKey);
     } else {

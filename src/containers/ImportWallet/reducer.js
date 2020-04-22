@@ -78,7 +78,7 @@ export default (state = initialState, action) => {
       const initialInput =
         action.newType === KEY_INPUT_TYPE.RECOVERY_PHRASE
           ? {
-              hdPath: "m/44'/889'/0'/0/",
+              hdPath: "m/44'/558'/0'/0/",
             }
           : {};
       return state

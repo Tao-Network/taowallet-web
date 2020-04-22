@@ -74,9 +74,9 @@ class LedgerForm extends PureComponent {
                 <TextBlue
                   cursor="pointer"
                   btnRed
-                  onClick={() => updateInput('hdPath', "m/44'/889'/0'/0")}
+                  onClick={() => updateInput('hdPath', "m/44'/558'/0'/0")}
                 >
-                  {"m/44'/889'/0'/0"}
+                  {"m/44'/558'/0'/0"}
                 </TextBlue>
               ),
             }}

@@ -573,7 +573,7 @@ export default defineMessages({
   },
   IMPORT_WALLET_TAB_RECOVERY_PHRASE_TYPE_MNEMONIC_INPUT_HD_PATH_PLACEHOLDER: {
     id: `${importWalletPagePrefix}.tab.recoveryphrase.type.mnemonic.input.hdpath.placeholder`,
-    defaultMessage: "e.g. m/44'/889'/0'/0, m/44'/60'/0'...",
+    defaultMessage: "e.g. m/44'/558'/0'/0, m/44'/60'/0'...",
   },
   IMPORT_WALLET_TAB_KEYSTORE_IMAGE_ALT: {
     id: `${importWalletPagePrefix}.tab.keystore.image.alt`,

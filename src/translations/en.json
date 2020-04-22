@@ -127,7 +127,7 @@
   "tomowallet.container.importwallet.tab.recoveryphrase.type.mnemonic.input.mnemonic.label": "Enter your Recovery Phrase",
   "tomowallet.container.importwallet.tab.recoveryphrase.type.mnemonic.input.mnemonic.placeholder": "Type a 12-word phrase",
   "tomowallet.container.importwallet.tab.recoveryphrase.type.mnemonic.input.hdpath.label": "Enter HD Path",
-  "tomowallet.container.importwallet.tab.recoveryphrase.type.mnemonic.input.hdpath.placeholder": "e.g. m/44'/889'/0'/0, m/44'/60'/0'...",
+  "tomowallet.container.importwallet.tab.recoveryphrase.type.mnemonic.input.hdpath.placeholder": "e.g. m/44'/558'/0'/0, m/44'/60'/0'...",
   "tomowallet.container.importwallet.tab.keystore.image.alt": "Keystore",
   "tomowallet.container.importwallet.tab.keystore.text": "Keystore File",
   "tomowallet.container.importwallet.error.invalid.recoveryphrase": "Invalid recovery phrase.",

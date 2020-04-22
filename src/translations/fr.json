@@ -127,7 +127,7 @@
   "tomowallet.container.importwallet.tab.recoveryphrase.type.mnemonic.input.mnemonic.label": "Entrez votre phrase de récupération",
   "tomowallet.container.importwallet.tab.recoveryphrase.type.mnemonic.input.mnemonic.placeholder": "Tapez une phrase de 12 mots",
   "tomowallet.container.importwallet.tab.recoveryphrase.type.mnemonic.input.hdpath.label": "Entrez le chemin HD",
-  "tomowallet.container.importwallet.tab.recoveryphrase.type.mnemonic.input.hdpath.placeholder": "par exemple. m/44'/889'/0'/0, m/44'/60'/0'...",
+  "tomowallet.container.importwallet.tab.recoveryphrase.type.mnemonic.input.hdpath.placeholder": "par exemple. m/44'/558'/0'/0, m/44'/60'/0'...",
   "tomowallet.container.importwallet.tab.keystore.image.alt": "Magasin de clés",
   "tomowallet.container.importwallet.tab.keystore.text": "Fichier de magasin de clés",
   "tomowallet.container.importwallet.error.invalid.recoveryphrase": "Phrase de récupération invalide.",
